@@ -1,6 +1,15 @@
-.navbar .navbar-brand, 
+body {
+  background: linear-gradient(to right, #b2b2b2, #575757);
+  height: 100vh;
+}
+
+.navbar .navbar-brand,
 .navbar .nav-link {
   color: whitesmoke;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .navbar .nav-link.active {
@@ -12,17 +21,33 @@ a {
   font-size: x-large;
 }
 
-hr {
-  height: 10px;
-  width: auto;
-  color: black;
-}
-
-.btn-primary{
+.btn-primary {
   background: none;
   border: none;
 }
 
-@media screen {
-  
+.koncert {
+  color: black;
+  margin-left: 1rem;
 }
+
+.card-mb-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.card :hover{
+  transform: scale(10px);
+}
+
+.mx-auto {
+  width: 0px;
+}
+
+hr{
+  height: 5px;
+  border-radius: 5px;}
