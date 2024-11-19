@@ -3,9 +3,17 @@ body {
   height: 100vh;
 }
 
+.carousel{
+  margin-bottom: 1rem;
+}
+
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: whitesmoke;
+}
+
+.navbar{
+  margin-bottom: 2rem;
 }
 
 .navbar-toggler-icon {
@@ -44,10 +52,19 @@ a {
   transform: scale(10px);
 }
 
-.mx-auto {
-  width: 0px;
-}
-
 hr{
   height: 5px;
   border-radius: 5px;}
+
+iframe {
+  margin-bottom: 4rem;
+}  
+
+.gallery img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.5);
+}
