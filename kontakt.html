@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Bandtopia<B class=""></B></a>
+      <a class="navbar-brand" href="index.html">Bandtopia<B class=""></B></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
             <a class="nav-link" href="galerie.html">Galerie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="kontakt.html">Kontakt</a>
+            <a class="nav-link" href="#">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -39,51 +39,28 @@
   </div>
   <div class="container">
     <hr class="bg-dark">
-    <h1 class="biggie">The Notorious B.I.G.</h1>
+    <h1>Kontaktujte nás</h1>
     <hr class="bg-dark">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/1200x680_biggie.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/196086.jpg" class="d-block w-100" alt="...">
-        </div>
+    <form action="mailto:tvuj-email@example.com" method="post" enctype="text/plain" class="mt-4">
+      <div class="mb-3">
+        <label for="name" class="form-label">Vaše jméno</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Zadejte své jméno" required>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Váš e-mail</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Zadejte svůj e-mail" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Zpráva</label>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Napište vaši zprávu" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Odeslat</button>
+      </div>
+    </form>
   </div>
-  </div>
-  <div class="container">
-    <a>
-      The Notorious B.I.G., vlastním jménem Christopher George Latore Wallace, byl jedním z nejvlivnějších rapperů všech
-      dob. Narodil se 21. května 1972 v Brooklynu, New Yorku, a svým hlubokým hlasem, propracovanými texty a
-      charismatickým projevem rychle ovládl hip-hopovou scénu 90. let. Jeho debutové album *Ready to Die* (1994)
-      představilo jeho surový pohled na život v městských ulicích, plný bojů i triumfů. Hity jako "Juicy" a "Big Poppa"
-      mu přinesly celosvětovou slávu. Jeho kariéru však tragicky ukončila jeho smrt při přestřelce v roce 1997, kdy mu
-      bylo pouhých 24 let. Biggieho odkaz dodnes inspiruje generace umělců a fanoušků, kteří si ho pamatují jako krále
-      newyorského rapu.
-    </a>
-  </div>
-  <div class="container">
-  <hr class="bg-dark">
-  <h1>
-    Poslouchejte
-  </h1>
-  <hr class="bg-dark">
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5me0Irg2ANcsgc93uaYrpb?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>   
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <footer class="bg-dark text-white py-4">
     <div class="container">
       <div class="row">

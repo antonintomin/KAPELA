@@ -26,7 +26,7 @@ body {
 
 a {
   line-height: 1.5;
-  font-size: x-large;
+  font-size: large;
 }
 
 .btn-primary {
@@ -67,4 +67,15 @@ iframe {
 
 .gallery img:hover {
   transform: scale(1.5);
+}
+
+.card{
+  margin-bottom: 2rem;
+}
+
+.btn-primary{
+  margin-bottom: 2rem;
+}
+.card-mb-3{
+  margin-top: 2rem;
 }
